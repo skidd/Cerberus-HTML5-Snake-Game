@@ -1,0 +1,101 @@
+body {padding: 0; margin: 0; overflow: hidden;}
+#snake {background: trasparent;}
+
+@font-face { 
+font-family: 'GeostarFill'; 
+src: url('GeostarFill-Regular.ttf'); 
+}
+
+#mainMenu, #gameoverMenu {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+#gameoverTitle{
+	font-size:100px;
+}
+
+h1,h2,h3,h4,h5,p,a{
+	position: relative;  
+	z-index: 1; 
+	font: 200px 'GeostarFill', cursive;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+a{
+	font-size : 16px; 
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	left: 0;
+}
+
+
+
+h1{
+	margin-top: 5%;
+	}
+h2{
+	margin:0;
+	position: relative;
+	font-size:20px;
+	}
+h3{
+	margin:0;
+	font-size:20px;
+	
+	}
+
+p {
+	font-size: 16px;
+	margin-top: 10px;
+	padding-left: 200px;
+	}
+
+a#single,a#multi,a#backtoMenu{
+	font-size: 24px;
+	display: block;
+	width: 140px;
+	top: 20%;	
+	left: 0; 
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	padding: 10px;
+	text-decoration: none;
+	margin: 0 auto; 
+	}
+
+#score1 {
+	bottom: 5px;
+	left: 5px;
+	color::white;
+	position: absolute;
+	z-index: 1;
+	padding-left: 5px;
+	font-size: 15px;
+}
+#score2 {
+	bottom: 5px;
+	right: 5px;
+	color:white;
+	position: absolute;
+	z-index: 1;
+	padding-left: 5px;
+	font-size: 15px;
+}
+#timecount {
+	bottom: 5px;
+	text-align: center;
+	color:white;
+	position: relative;
+	z-index: 1;
+	font-size: 15px;
+}
